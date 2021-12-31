@@ -3,7 +3,7 @@ import os
 # Modules import
 from dotenv import load_dotenv
 from pathlib import Path
-from client import SpotClient
+from client.spot_client import SpotClient
 
 dotenv_path = Path('./.env')
 load_dotenv(dotenv_path=dotenv_path)
